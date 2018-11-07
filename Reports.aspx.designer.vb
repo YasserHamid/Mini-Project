@@ -14,20 +14,11 @@ Option Explicit On
 Partial Public Class WebForm17
     
     '''<summary>
-    '''ReportViewer1 control.
+    '''Chart1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents ReportViewer1 As Global.Microsoft.Reporting.WebForms.ReportViewer
-    
-    '''<summary>
-    '''ObjectDataSource1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ObjectDataSource1 As Global.System.Web.UI.WebControls.ObjectDataSource
+    Protected WithEvents Chart1 As Global.System.Web.UI.DataVisualization.Charting.Chart
 End Class

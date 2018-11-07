@@ -17,7 +17,7 @@ Public Class WebForm8
         con = New SqlConnection(ConfigurationManager.ConnectionStrings("myCS").ConnectionString)
         con.Open()
 
-        cmd = "SELECT Username, MatchesPlayed, Victories, Goals FROM Players"
+        cmd = "SELECT pID, Name, Username FROM Players"
         da = New SqlDataAdapter(cmd, con)
 
         ds = New DataSet()

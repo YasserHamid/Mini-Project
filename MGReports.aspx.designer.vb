@@ -14,31 +14,13 @@ Option Explicit On
 Partial Public Class WebForm16
     
     '''<summary>
-    '''Label1 control.
+    '''GridView1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''ReportViewer1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ReportViewer1 As Global.Microsoft.Reporting.WebForms.ReportViewer
-    
-    '''<summary>
-    '''ObjectDataSource1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ObjectDataSource1 As Global.System.Web.UI.WebControls.ObjectDataSource
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
     
     '''<summary>
     '''Label2 control.
@@ -57,13 +39,4 @@ Partial Public Class WebForm16
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents Chart1 As Global.System.Web.UI.DataVisualization.Charting.Chart
-    
-    '''<summary>
-    '''SqlDataSource1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
